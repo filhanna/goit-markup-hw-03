@@ -14,17 +14,19 @@ body {
   font-size: 14px;
   letter-spacing: 0.03em;
 }
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
 
 .hite-title {
   visibility: hidden;
 }
 /* Хедер */
-.header-container{
+.header-container {
   display: flex;
-  
-
 }
-
 
 /*Логотип*/
 .logo {
@@ -40,8 +42,7 @@ body {
   margin-right: 93px;
   padding-top: 38px;
   align-items: center;
-/* Якщо роблю padding-top: 24 то лого пидскакує */
-
+  /* Якщо роблю padding-top: 24 то лого пидскакує */
 }
 .logo-part {
   color: var(--activity-color);
@@ -86,10 +87,10 @@ body {
 .list-item:hover {
   color: var(--activity-color);
 }
-.main-nav{
+.main-nav {
   display: flex;
 }
-.nav{
+.nav {
   margin-right: auto;
 }
 /*Контактна информація*/
@@ -140,7 +141,7 @@ body {
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
-  outline: 2px solid red;
+  
 }
 /* Кнопка*/
 .btn {
@@ -188,14 +189,14 @@ body {
   color: var(--primary-text-color);
 }
 .feature-text {
-  line-height: 1,71;
+  line-height: 1, 71;
   letter-spacing: 0.03em;
   font-weight: 400;
   font-size: 14px;
   font-style: normal;
   color: var(--secondary-text-color);
 }
-.feature-list-item{
+.feature-list-item {
   min-width: 270px;
   height: 98px;
 }
@@ -227,7 +228,9 @@ body {
   display: flex;
   gap: 30px;
   padding: 0;
-  margin-bottom: 0;
+  margin-bottom: 94px;
+  background-color: var(--secondary-background-color);
+  
 }
 .name-teammate {
   font-weight: 500;
@@ -280,7 +283,6 @@ body {
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
-  
 }
 /* CSS HW 2*/
 /* Кнопки*/
@@ -292,9 +294,8 @@ body {
   justify-content: center;
   margin-bottom: 50px;
   margin-top: 94px;
-
 }
-.btn-list .btn2{
+.btn-list .btn2 {
   cursor: pointer;
   font-weight: 500;
   font-size: 16px;
@@ -302,12 +303,12 @@ body {
   border: 1px solid transparent;
   background: #f5f4fa;
   border-radius: 4px;
-
+font-style: normal;
   padding: 6px 22px;
 }
 
 .btn-list .btn2:hover,
-.btn-list .btn2:focus{
+.btn-list .btn2:focus {
   color: var(--white-text-color);
   background-color: var(--activity-color);
 }
@@ -325,10 +326,11 @@ body {
   display: flex;
   flex-wrap: wrap;
   padding: 0;
-  gap: 25px;
+  gap: 30px;
+  margin-bottom: 0;
 }
-.cards-item{
-  background: #ffffff;
+.cards-item {
+  background: var(--primary-background-color);
   border: 1px solid #eeeeee;
   padding-top: 20px;
   padding-right: 24px;
@@ -342,16 +344,16 @@ body {
   text-decoration: none;
   letter-spacing: 0.06em;
   color: var(--primary-text-color);
+  margin-bottom: 4px;
+ 
 }
 .project-item {
   text-decoration: none;
-  background: var(--primary-background-color);
-  border: 1px solid #eeeeee;
+  
 }
 .project-type {
   font-size: 16px;
   line-height: 1.8;
   letter-spacing: 0.03em;
-
   color: var(--secondary-text-color);
 }
