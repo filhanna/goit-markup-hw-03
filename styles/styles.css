@@ -143,7 +143,6 @@ img {
   margin-right: auto;
 }
 
-
 /* Кнопка*/
 .btn {
   display: flex;
@@ -223,13 +222,14 @@ img {
 
 .section-team {
   background-color: var(--secondary-background-color);
+  padding-bottom: 94px;
 }
 .list-team {
   list-style-type: none;
   display: flex;
   gap: 30px;
   padding: 0;
-  margin-bottom: 94px;
+
   background-color: var(--secondary-background-color);
 }
 .name-teammate {
